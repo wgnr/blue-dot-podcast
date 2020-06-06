@@ -1,0 +1,166 @@
+/* VARS:
+Every var used in the proyect is listed here. */
+
+* {
+    /* Brackpoints */
+    --bp-display-mobile: 320px;
+    --bp-display-tablet: 720px;
+    --bp-display-desktop: 1440px;
+    /* body */
+    --body_background: #FFFFFF;
+    /* text link normal */
+    --text-link-normal_color: #060A24;
+    --text-link-normal_font-family: 'IBM Plex Mono', monospace;
+    --text-link-normal_font-size: 16px;
+    --text-link-normal_font-weight: 400;
+    --text-link-normal_letter-spacing: 0;
+    --text-link-normal_line-height: 28px;
+    --text-link-normal_text-decoration: none;
+    --text-link-normal_text-transform: uppercase;
+    /* text link hover */
+    --text-link-hover_color: #00F3BB;
+    --text-link-hover_font-family: 'IBM Plex Mono', monospace;
+    --text-link-hover_font-size: 16px;
+    --text-link-hover_font-weight: 500;
+    --text-link-hover_letter-spacing: 0;
+    --text-link-hover_line-height: 28px;
+    --text-link-hover_text-decoration: line-through;
+    --text-link-hover_text-transform: uppercase;
+    /* text link active */
+    --text-link-active_color: rgba(6, 10, 36, 0.56);
+    --text-link-active_font-family: 'IBM Plex Mono', monospace;
+    --text-link-active_font-size: 16px;
+    --text-link-active_font-weight: 400;
+    --text-link-active_letter-spacing: 0;
+    --text-link-active_line-height: 28px;
+    --text-link-active_text-decoration: line-through;
+    --text-link-active_text-transform: uppercase;
+    /* button normal */
+    --button-normal_background: #00F3BB;
+    --button-normal_color: #060A24;
+    --button-normal_font-family: 'IBM Plex Mono', monospace;
+    --button-normal_font-size: 16px;
+    --button-normal_font-weight: 500;
+    --button-normal_letter-spacing: 0;
+    --button-normal_line-height: 22px;
+    --button-normal_text-align: center;
+    --button-normal_text-transform: uppercase;
+    --button-normal_text-decoration: none;
+    /* button hover */
+    --button-hover_background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    --button-hover_color: #FFFFFF;
+    --button-hover_font-family: 'IBM Plex Mono', monospace;
+    --button-hover_font-size: 16px;
+    --button-hover_font-weight: 500;
+    --button-hover_letter-spacing: 0;
+    --button-hover_line-height: 22px;
+    --button-hover_text-align: center;
+    --button-hover_text-transform: uppercase;
+    --button-hover_text-decoration: none;
+    /* button mobile*/
+    --button-mobile_height: 48px;
+    --button-mobile_width: 288px;
+    /* paragraph */
+    /* paragraph mobile*/
+    --paragraph-mobile_color: #060A24;
+    --paragraph-mobile_font-family: 'IBM Plex Mono', monospace;
+    --paragraph-mobile_font-size: 14px;
+    --paragraph-mobile_font-weight: 400;
+    --paragraph-mobile_letter-spacing: 0;
+    --paragraph-mobile_line-height: 22px;
+    --paragraph-mobile_white-space: pre-line;
+    /* paragraph desktop*/
+    --paragraph-desktop_color: #060A24;
+    --paragraph-desktop_font-family: 'IBM Plex Mono', monospace;
+    --paragraph-desktop_font-size: 16px;
+    --paragraph-desktop_font-weight: 400;
+    --paragraph-desktop_letter-spacing: 0;
+    --paragraph-desktop_line-height: 24px;
+    --paragraph-desktop_white-space: pre-line;
+    /* nav */
+    /* nav mobile */
+    --nav-mobile_height: 44px;
+    --nav-mobile_width: 320px;
+    --nav-mobile-expanded-cross_background: #060A24;
+    --nav-mobile-expanded-cross_margin-bottom: 14px;
+    --nav-mobile-expanded-cross_margin-right: 16px;
+    --nav-mobile-expanded-cross_margin-top: 16px;
+    --nav-mobile-expanded-menu_background: #0000EC;
+    --nav-mobile-expanded-menu_height: 224px;
+    --nav-mobile-expanded-menu_width: 320px;
+    --nav-mobile-expanded-menu-button_color: #FFFFFF;
+    --nav-mobile-expanded-menu-button_font-family: 'IBM Plex Mono', monospace;
+    --nav-mobile-expanded-menu-button_font-size: 16px;
+    --nav-mobile-expanded-menu-button_font-weight: 400;
+    --nav-mobile-expanded-menu-button_letter-spacing: 0;
+    --nav-mobile-expanded-menu-button_line-height: 28px;
+    --nav-mobile-expanded-menu-button_margin-bottom: 24px;
+    --nav-mobile-expanded-menu-button_margin-left: 16px;
+    --nav-mobile-expanded-menu-button_margin-top: 16px;
+    --nav-mobile-logo_height: 24px;
+    --nav-mobile-logo_margin-bottom: 10px;
+    --nav-mobile-logo_margin-left: 16px;
+    --nav-mobile-logo_margin-top: 10px;
+    --nav-mobile-logo_width: 24px;
+    --nav-mobile-on-top-hamburger_margin-bottom: 16px;
+    --nav-mobile-on-top-hamburger_margin-right: 19px;
+    --nav-mobile-on-top-hamburger_margin-top: 16px;
+    --nav-mobile-on-top-hamburger-line_background: #000000;
+    --nav-mobile-on-top-hamburger-line_height: 2px;
+    --nav-mobile-on-top-hamburger-line_width: 18px;
+    --nav-mobile-on-top-hamburger-line-central_margin-bottom_top: 3px;
+    --nav-mobile-on-top-hamburger-line-central_margin-left_right: 0px;
+    /* nav desktop */
+    --nav-desktop-on-top_height: 80px;
+    --nav-desktop-on-top_width: 1440px;
+    --nav-desktop-on-top-buttons-all_margin-right: 100px;
+    --nav-desktop-on-top-buttons-li_margin-bottom: 26px;
+    --nav-desktop-on-top-buttons-li_margin-left: 48px;
+    --nav-desktop-on-top-buttons-li_margin-top: 26px;
+    --nav-desktop-on-top-logo_height: 36px;
+    --nav-desktop-on-top-logo_margin-bottom: 22px;
+    --nav-desktop-on-top-logo_margin-left: 100px;
+    --nav-desktop-on-top-logo_margin-top: 22px;
+    --nav-desktop-on-top-logo_width: 36px;
+    /* footer ico*/
+    --footer-nav-icons_color: #060A24;
+    --footer-nav-icons_font-family: 'Font Awesome 5 Brands';
+    --footer-nav-icons_font-size: 16px;
+    --footer-nav-icons_font-weight: 400;
+    --footer-nav-icons_letter-spacing: 0;
+    --footer-nav-icons_line-height: 28px;
+    /* intro h1 mobile */
+    --h1-intro_color: #060A24;
+    --h1-intro_font-family: 'IBM Plex Sans', sans-serif;
+    --h1-intro_font-size: 36px;
+    --h1-intro_font-weight: 400;
+    --h1-intro_letter-spacing: 0;
+    --h1-intro_line-height: 42px;
+    /* intro h1 desktop*/
+    --h1-intro-desktop_color: #060A24;
+    --h1-intro-desktop_font-family: 'IBM Plex Sans', sans-serif;
+    --h1-intro-desktop_font-size: 48px;
+    --h1-intro-desktop_font-weight: 400;
+    --h1-intro-desktop_letter-spacing: 0;
+    --h1-intro-desktop_line-height: normal;
+    /* caracteristicas subtitulos*/
+    --characteristics-h2_color: #060A24;
+    --characteristics-h2_font-family: 'IBM Plex Sans', sans-serif;
+    --characteristics-h2_font-size: 24px;
+    --characteristics-h2_font-weight: 600;
+    --characteristics-h2_letter-spacing: 0;
+    --characteristics-h2_text-align: center;
+    /* dot desktop */
+    --dot-desktop_color: #0000EC;
+    --dot-desktop_font-family: 'IBM Plex Sans', sans-serif;
+    --dot-desktop_font-size: 64px;
+    --dot-desktop_font-weight: 400;
+    --dot-desktop_letter-spacing: 0;
+    /* dot mobile*/
+    --dot-mobile_color: #060A24;
+    --dot-mobile_font-family: 'IBM Plex Sans', sans-serif;
+    --dot-mobile_font-size: 36px;
+    --dot-mobile_font-weight: 400;
+    --dot-mobile_letter-spacing: 0;
+    --dot-mobile_line-height: 42px;
+}
